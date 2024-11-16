@@ -1,0 +1,31 @@
+imosmart/
+│
+├── backend/                  # Backend do projeto (por exemplo, API ou lógica de servidor)
+│   ├── app/                  # Aplicação principal
+│   │   ├── init.py           # Inicializa o pacote
+│   │   ├── models.py         # Modelos de banco de dados (ORM)
+│   │   ├── views.py          # Lógica de visualizações ou controllers
+│   │   ├── routes.py         # Rotas da API
+│   │   └── config.py         # Configurações do backend (como DB, secret key, etc.)
+│   ├── requirements.txt      # Dependências do backend
+│   └── run.py                # Arquivo para rodar o servidor local
+│
+├── frontend/                 # Frontend do projeto (exemplo: React, Vue, etc.)
+│   ├── public/               # Arquivos públicos (index.html, etc.)
+│   ├── src/                  # Código-fonte do frontend
+│   │   ├── components/       # Componentes reutilizáveis
+│   │   ├── pages/            # Páginas principais
+│   │   └── App.js            # Componente principal
+│   ├── package.json          # Dependências do frontend
+│   └── .env                  # Variáveis de ambiente do frontend
+│
+├── database/                 # Scripts do banco de dados
+│   ├── schema.sql            # Estrutura inicial do banco
+│   └── migrations/           # Migrations (se usar ORM como SQLAlchemy)
+│
+├── tests/                    # Testes unitários
+│   ├── backend/              # Testes do backend
+│   └── frontend/             # Testes do frontend
+│
+├── .gitignore                # Arquivos a serem ignorados pelo Git
+└── README.md                 # Documentação do projeto
